@@ -55,9 +55,6 @@ body {
     text-align: center;
     margin-right: 20px;
     vertical-align: top;
-    border-radius: 2px;
-    border-color: black;
-    border-style: solid;
 }
 
 .car-group {
@@ -65,9 +62,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 2px;
-    border-color: black;
-    border-style: solid;
 }
 
 .model-name {
