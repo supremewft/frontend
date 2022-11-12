@@ -8,7 +8,7 @@ body {
 }
 .model-3 {
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     text-align: center;
     margin-bottom: 2px;
 }
@@ -16,6 +16,7 @@ body {
 .description {
     margin-top: 0px;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .touchless-delivery {
@@ -51,14 +52,13 @@ body {
 .cars-div {
     display: inline-block;
     width: 500px;
-    height: 262px;
+    height: 500px;
     text-align: center;
-    margin-right: 20px;
-    vertical-align: top;
+    padding: 10px;
 }
 
 .car-group {
-    height: 200px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,4 +66,5 @@ body {
 
 .model-name {
     margin-bottom: 3px;
+    margin-top: 20px;
 }
