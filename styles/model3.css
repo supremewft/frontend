@@ -41,8 +41,8 @@ body {
 }
 
 .tesla-picture:hover {
-    opacity: 0.8;
-    box-shadow: 10px 10px 30px 1px black;
+    box-shadow: 10px 10px 30px 1px dimgray;
+    opacity: 0.9;
 }
 
 .tesla-picture:active {
