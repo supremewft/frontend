@@ -54,7 +54,8 @@ body {
     width: 500px;
     height: 500px;
     text-align: center;
-    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .car-group {
@@ -67,4 +68,8 @@ body {
 .model-name {
     margin-bottom: 3px;
     margin-top: 20px;
+}
+
+.car-description {
+    font-size: 100%
 }
