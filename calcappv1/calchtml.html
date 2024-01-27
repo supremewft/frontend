@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcstyles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 class="heading1">Calculator</h1>
+    <div class="outerdiv">
+        <div class="num1and2">
+            <label for="num1" class="label">Number 1:</label>
+            <input type="number" id="num1" required placeholder="enter a number">
+            <label for="num2" class="label">Number 2:</label>
+            <input type="number" id="num2" required placeholder="enter a number">
+        </div>
+        <div class="operations">
+            <button type="submit" id="add" class="add">+</button>
+            <button type="submit" id="sub" class="sub">-</button>
+            <button type="submit" id="mult" class="mult">&times</button>
+            <button type="submit" id="div" class="div">&#247</button>
+        </div>
+        <div class="output">
+            <p id="result">Result: </p>
+        </div>
+    </div>
+<script src="calcscripts.js"></script>
+</body>
+</html>
